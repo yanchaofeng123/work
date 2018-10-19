@@ -1,0 +1,38 @@
+{
+  "pages": [
+   
+    
+    "pages/guahao/guahao",
+    "pages/logs/logs",
+    "pages/guahao/tel",
+    "pages/templates/header",
+    "pages/index/index",
+    "pages/msg/index"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "上海江城皮肤病医院",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#09bb07",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/5_1.png",
+        "iconPath": "images/5.png",
+        "pagePath": "pages/guahao/guahao",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/8_1.png",
+        "iconPath": "images/8.png",
+        "pagePath": "pages/guahao/tel",
+        "text": "联系我们"
+      }
+    ]
+  }
+}
