@@ -1,0 +1,10 @@
+<!--pages/templates/hedaer.wxml-->
+
+<swiper id="banner" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode="scaleToFill" bindtap="calling" />
+    </swiper-item>
+  </block>
+</swiper>

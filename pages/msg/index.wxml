@@ -1,0 +1,6 @@
+<!--pages/msg/index.wxml-->
+<view class='add_msg'>
+ <input class='' placeholder='hahaha' placeholder-class='input_msg'></input>
+ <button class='button_msg' size='mini' >添加</button>
+
+</view>

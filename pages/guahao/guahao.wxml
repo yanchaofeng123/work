@@ -1,0 +1,52 @@
+<!--pages/guahao/guahao.wxml-->
+<!--<images src="" mode="widthFix"></images>  mode  默认原始尺寸等比例-->
+<include src="../templates/header.wxml"/>
+<view class="contaier">
+<view class='daohang' bindtap="calling">
+   <view class='wldh fl'>
+     <image style="width: 50px; height: 50px; "  src="/images/6_1.png"></image>
+      <text>门诊挂号</text>
+      <p>足不出户</p><p>挂号看病</p>
+   </view>
+   <view class='wrdh fr'>
+       <view class='shang' bindtap="calling">
+        <image style="width: 50px; height: 50px; "  src="/images/8_1.png"></image>
+        <view class='fl'>
+        <text class='h2' >电话预约</text>
+         <p>一键预约 杜绝排队</p>
+        </view>
+       </view>
+
+        <view class='xia'>
+        <image style="width: 50px; height: 50px; "  src="/images/5_1.png"></image>
+        <view class='fl'>
+        <text class='h2'>在线咨询</text>
+         <p>在线医生 免费解答</p>
+        </view>
+        </view>
+
+   </view>
+</view > 
+
+  <!--jibing-->
+   <view class='title_h cler'>疾病导航 </view>
+  <view  class='jb_nav' >
+     <view  wx:for="{{jibing_nav}}" wx:for-item="item"  class='jb_item' bindtap='calling' >
+      <image src="{{item.src}}" mode="{{item.mode}}" ></image>
+       <view class='bt'>{{item.text}}</view>
+     </view>
+    
+  </view>
+  <!--板块-->
+   <view class='title_h cler'>社会公益</view>
+  <view  wx:for="{{bankuai_img}}" wx:for-item="item" class='bk_item' bindtap='calling'>
+    <image src="{{item.src}}" mode="{{item.mode}}" ></image>
+    <view class='bt'>{{item.text}}</view>
+  </view>
+
+
+
+
+
+  
+</view>

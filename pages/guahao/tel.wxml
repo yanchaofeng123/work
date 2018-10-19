@@ -1,0 +1,16 @@
+<!--pages/guahao/tel.wxml-->
+
+<include src="../templates/header.wxml"/>
+ <view class='tel_con'>
+ 
+  <text class="title">来院路线</text>
+<!--<map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap"  bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location ></map>-->
+<map longitude="121.529770" latitude="31.274330" scale="15" markers="{{markers}}" callout="{{callout}}" ></map>
+<text></text>
+<text>医院地址：上海市杨浦区黄兴路286号</text>
+<text>门诊时间：08:00--17:00（节假日无休）</text>
+<text>预约电话：021-52721929</text>
+
+<button class='fl' type="primary"  bindtap="daohang">在线导航</button>
+<button  class='fr' type="warn"  open-type="contact" bindcontact="handleContact" >在线客服</button>
+ </view>

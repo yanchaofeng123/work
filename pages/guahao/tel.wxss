@@ -1,0 +1,10 @@
+/* pages/guahao/tel.wxss */
+.tel_con{ width: 90%; margin:0 auto;}
+.tel_con .title{ font-size: 20px; text-align: center;display: block}
+.tel_con map{
+  height: 240px; 
+  margin: 0 auto;
+  width: 100%;
+}
+.tel_con text{ font-size: 16px; display:block; line-height: 150%; padding-left: 30rpx;color: #636161}
+.tel_con button{ width: 45% ;}
